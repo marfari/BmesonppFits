@@ -308,7 +308,7 @@ RooFitResult *fit(TString variation, TString pdf,TString tree, TCanvas* c, TCanv
 	   */
 
 	//	mean.setConstant();
-	sigma1.setConstant();
+	/*sigma1.setConstant();
 	if(pdf!="1gauss"){
 		sigma2.setConstant();
 		sig1frac.setConstant();
@@ -342,7 +342,7 @@ RooFitResult *fit(TString variation, TString pdf,TString tree, TCanvas* c, TCanv
 		// fitResult = model->fitTo(*ds,Save(), Minos() , Extended(kTRUE));
 
 	}
-
+*/
 
 	/*
 	// test removing bakcground
